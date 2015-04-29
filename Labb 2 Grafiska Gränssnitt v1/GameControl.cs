@@ -33,13 +33,13 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
 	 * */
         public void checkForWinControl()
         {
-            for (int outer = 0; outer < _GM.winCombos.Count; outer++)
+            for (int i = 0; i < _GM.winCombos.Count; i++)
             {
-                if (_GM.btnValues[_GM.winCombos[outer][0]] == _GM.btnValues[_GM.winCombos[outer][1]] &&
-                        _GM.btnValues[_GM.winCombos[outer][1]] == _GM.btnValues[_GM.winCombos[outer][2]] &&
-                            _GM.btnValues[_GM.winCombos[outer][2]] != null)
+                if (_GM.btnValues[_GM.winCombos[i][0]] == _GM.btnValues[_GM.winCombos[i][1]] &&
+                        _GM.btnValues[_GM.winCombos[i][1]] == _GM.btnValues[_GM.winCombos[i][2]] &&
+                            _GM.btnValues[_GM.winCombos[i][2]] != null)
                 {
-                    _GM.winBecomesTrue(_GM.btnValues[_GM.winCombos[outer][0]]);
+                    _GM.winBecomesTrue(_GM.btnValues[_GM.winCombos[i][0]]);
                 }
             }
         }

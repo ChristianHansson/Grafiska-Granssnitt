@@ -42,7 +42,6 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 currentPlayer_label.Text = _GM.playerTwo+" spelar nu";
             }
             if(_GM.checkForWin()){
-                //Console.WriteLine(arg);
                 _GC.playerHasWon(arg);
             }
         }
@@ -79,171 +78,171 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 0);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 0);
             }
             else if(turn == 2)
             {
-                _GC.läggTillSymbol("O", 0);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 0);
             }
         }
         private void game_btn1_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 1);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 1);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 1);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 1);
             }
         }
         private void game_btn2_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 2);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 2);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 2);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 2);
             }
         }
         private void game_btn3_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 3);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 3);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 3);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 3);
             }
         }
         private void game_btn4_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 4);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 4);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 4);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 4);
             }
         }
         private void game_btn5_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 5);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 5);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 5);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 5);
             }
         }
         private void game_btn6_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 6);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 6);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 6);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 6);
             }
         }
         private void game_btn7_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 7);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 7);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 7);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 7);
             }
         }
         private void game_btn8_Click(object sender, EventArgs e)
         {
             if (turn == 1)
             {
-                _GC.läggTillSymbol("X", 8);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
                 turn = 2;
+                _GC.läggTillSymbol("X", 8);
             }
             else if (turn == 2)
             {
-                _GC.läggTillSymbol("O", 8);
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
                 turn = 1;
+                _GC.läggTillSymbol("O", 8);
             }
         }
     }
