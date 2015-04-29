@@ -27,6 +27,11 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 _GM.turnIsFalse();
             }
             checkForWinControl();
+            for (int i = 0; i < _GM.btnValues.Length; i++ )
+            {
+                Console.Write(_GM.btnValues[i]);
+            }
+            Console.WriteLine();
         }
         /**This method, that runs every time user presses a game button, will check the data in the model
 	 * to see if any user has won or not. 

@@ -26,10 +26,8 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
 
         public void update(IObservable io, string arg)
         {
-            //Console.WriteLine(_GM.playerTwo);
             if (_GM.isPlayerNamesSet)
             {
-                turn = 1;
                 playerOne_label.Text = _GM.playerOne;
                 playerTwo_label.Text = _GM.playerTwo;
             }
@@ -53,6 +51,7 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
             if (InputBox.Show("Spelare ett", "Namn:", ref tempPlayerOne) == DialogResult.OK){
                 if(InputBox.Show("Spelare två", "Namn", ref tempPlayerTwo) == DialogResult.OK){
                     _GC.setNewGame(tempPlayerOne, tempPlayerTwo);
+                    turn = 1;
                 }
             }
             game_btn0.Enabled = true;
@@ -81,16 +80,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 0);
+                turn = 2;
             }
             else if(turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 0);
+                turn = 1;
             }
         }
         private void game_btn1_Click(object sender, EventArgs e)
@@ -100,16 +99,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 1);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 1);
+                turn = 1;
             }
         }
         private void game_btn2_Click(object sender, EventArgs e)
@@ -119,16 +118,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 2);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 2);
+                turn = 1;
             }
         }
         private void game_btn3_Click(object sender, EventArgs e)
@@ -138,16 +137,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 3);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 3);
+                turn = 1;
             }
         }
         private void game_btn4_Click(object sender, EventArgs e)
@@ -157,16 +156,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 4);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 4);
+                turn = 1;
             }
         }
         private void game_btn5_Click(object sender, EventArgs e)
@@ -176,16 +175,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 5);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 5);
+                turn = 1;
             }
         }
         private void game_btn6_Click(object sender, EventArgs e)
@@ -195,16 +194,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 6);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 6);
+                turn = 1;
             }
         }
         private void game_btn7_Click(object sender, EventArgs e)
@@ -214,16 +213,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 7);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 7);
+                turn = 1;
             }
         }
         private void game_btn8_Click(object sender, EventArgs e)
@@ -233,16 +232,16 @@ namespace Labb_2_Grafiska_Gränssnitt_v1
                 Button tempButton = (Button)sender;
                 tempButton.Text = "X";
                 tempButton.Enabled = false;
-                turn = 2;
                 _GC.läggTillSymbol("X", 8);
+                turn = 2;
             }
             else if (turn == 2)
             {
                 Button tempButton = (Button)sender;
                 tempButton.Text = "O";
                 tempButton.Enabled = false;
-                turn = 1;
                 _GC.läggTillSymbol("O", 8);
+                turn = 1;
             }
         }
     }

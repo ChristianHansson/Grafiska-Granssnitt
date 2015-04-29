@@ -128,7 +128,7 @@
             // 
             // newGame_btn
             // 
-            this.newGame_btn.Location = new System.Drawing.Point(12, 12);
+            this.newGame_btn.Location = new System.Drawing.Point(12, 159);
             this.newGame_btn.Name = "newGame_btn";
             this.newGame_btn.Size = new System.Drawing.Size(124, 66);
             this.newGame_btn.TabIndex = 1;
@@ -139,7 +139,7 @@
             // playerOne_label
             // 
             this.playerOne_label.AutoSize = true;
-            this.playerOne_label.Location = new System.Drawing.Point(12, 112);
+            this.playerOne_label.Location = new System.Drawing.Point(15, 43);
             this.playerOne_label.Name = "playerOne_label";
             this.playerOne_label.Size = new System.Drawing.Size(41, 13);
             this.playerOne_label.TabIndex = 2;
@@ -148,7 +148,7 @@
             // playerTwo_label
             // 
             this.playerTwo_label.AutoSize = true;
-            this.playerTwo_label.Location = new System.Drawing.Point(9, 198);
+            this.playerTwo_label.Location = new System.Drawing.Point(12, 130);
             this.playerTwo_label.Name = "playerTwo_label";
             this.playerTwo_label.Size = new System.Drawing.Size(88, 13);
             this.playerTwo_label.TabIndex = 2;
@@ -157,18 +157,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 85);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.Size = new System.Drawing.Size(80, 21);
             this.label1.TabIndex = 3;
             this.label1.Text = "Spelare 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 173);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(80, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Spelare 2";
             // 
@@ -185,6 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(439, 334);
             this.Controls.Add(this.currentPlayer_label);
             this.Controls.Add(this.label2);
